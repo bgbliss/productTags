@@ -1,0 +1,24 @@
+{
+  "name": "producttags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "count.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "lodash.join": "^4.0.1",
+    "lodash.split": "^4.4.2",
+    "n_": "^2.0.2",
+    "request": "^2.88.0",
+    "shopify-api-node": "^2.25.1",
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.50"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
