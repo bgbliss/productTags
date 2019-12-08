@@ -1,5 +1,5 @@
 
-# Application created to update the tags ofr products in the shopify inventory 
+## Application created to update the tags for products in the shopify inventory 
     To Run application:
         add in .env file connected to account
         run command node update.js
