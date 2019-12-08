@@ -1,8 +1,12 @@
 
-
+# Application created to update the tags ofr products in the shopify inventory 
+    To Run application:
+        add in .env file connected to account
+        run command node update.js
+        
 ## Use the config file to search to specific data
 
-### categorys
+### Categorys
     thumbnail
     image
     name
@@ -16,7 +20,7 @@
     minage
     link
 
-### types for links
+### Types for links
     boardgamecategory
     boardgamemechanic
     boardgamefamily
