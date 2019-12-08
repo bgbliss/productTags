@@ -1,6 +1,8 @@
-#For the config file to search to specific data
 
-# categorys
+
+## Use the config file to search to specific data
+
+### categorys
     thumbnail
     image
     name
@@ -14,7 +16,7 @@
     minage
     link
 
-# types for links
+### types for links
     boardgamecategory
     boardgamemechanic
     boardgamefamily
@@ -22,7 +24,8 @@
     boardgamedesigner
     boardgamepublisher
 
-# image, thumbnail, description, playingtime, minplaytime, maxplaytime, minage ,yearpublished, maxplayers & minplayers only gives a vlaue
+image, thumbnail, description, playingtime, minplaytime, maxplaytime, minage ,yearpublished, maxplayers & minplayers only gives one vlaue
+    
     value of type would be none 
     example:
             "category": "maxplayers",
