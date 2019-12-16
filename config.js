@@ -1,7 +1,8 @@
 let config = [
     {
         "category": "link",
-        "type": "boardgamemechanic"
+        "type": "boardgamemechanic",
+        "tag": "Mechanic"
     }
 ]
 

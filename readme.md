@@ -28,6 +28,14 @@
     boardgamedesigner
     boardgamepublisher
 
+### Tags for Links
+    Category
+    Mechanic
+    Family
+    Expansion
+    Designer
+    Publisher
+    
 image, thumbnail, description, playingtime, minplaytime, maxplaytime, minage ,yearpublished, maxplayers & minplayers only gives one vlaue
     
     value of type would be none 

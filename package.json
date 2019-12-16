@@ -1,16 +1,19 @@
 {
   "name": "producttags",
   "version": "1.0.0",
-  "description": "",
+  "description": "To Run application:\r         add in .env file connected to account\r         run command node update.js",
   "main": "count.js",
   "dependencies": {
+    "backoff": "^2.5.0",
     "dotenv": "^8.2.0",
     "lodash": "^4.17.15",
     "lodash.join": "^4.0.1",
     "lodash.split": "^4.4.2",
     "n_": "^2.0.2",
     "request": "^2.88.0",
+    "retry-request": "^4.1.1",
     "shopify-api-node": "^2.25.1",
+    "simple-rate-limiter": "^0.2.3",
     "xml2js": "^0.4.22"
   },
   "devDependencies": {
@@ -20,5 +23,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgbliss/productTags.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bgbliss/productTags/issues"
+  },
+  "homepage": "https://github.com/bgbliss/productTags#readme"
 }
