@@ -2,3 +2,5 @@
 node_modules/
 dev/
 main/
+myjsfile.js
+myjsfile-dev.js
