@@ -12,20 +12,8 @@ const array1 = require('./myjsfile')
 
 // Load the full build.
 var _ = require('lodash');
-// Load the core build.
-var _ = require('lodash/core');
-// Load the FP build for immutable auto-curried iteratee-first data-last methods.
-var fp = require('lodash/fp');
- 
-// Load method categories.
-var array = require('lodash/array');
-var object = require('lodash/fp/object');
 var join = require('lodash.join');
 var split = require('lodash.split');
-
-// Cherry-pick methods for smaller browserify/rollup/webpack bundles.
-var at = require('lodash/at');
-var curryN = require('lodash/fp/curryN');
 
 const shopify = new Shopify({
     shopName: storeName,
@@ -42,11 +30,6 @@ let search = config[0].category
 //////////////////////////////
 
 getBggApi = () =>{
-    // array1.forEach(function(obj,index,collection) {
-    //     setTimeout(function(){
-    //         console.log(obj);
-    //     }, index * 1000);
-    // });
    array1.forEach(function(obj,index,collection) {
         setTimeout(function(){
         var opts = {
@@ -60,7 +43,6 @@ getBggApi = () =>{
             {'cache-control': 'no-cache' } };
 
         request(options, opts, function (error, response, body) {
-            console.log(options)
             if (error) throw new Error(error);
             parseString(body, function (err, result) {
                 try{
