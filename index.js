@@ -38,7 +38,7 @@ iterateFunction = (results) =>{
 }
 
 loopArray = async (list, newI) =>{
-    for(let i = newI; i < 8; i++){
+    for(let i = newI; i < list.length; i++){
         
             console.log(i)
             let results = await requestBggApi(list[i], i)
