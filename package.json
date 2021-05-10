@@ -6,7 +6,7 @@
   "dependencies": {
     "backoff": "^2.5.0",
     "dotenv": "^8.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "lodash.join": "^4.0.1",
     "lodash.split": "^4.4.2",
     "n_": "^2.0.2",
